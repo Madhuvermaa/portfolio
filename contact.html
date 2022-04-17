@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF- 8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="device-width,initial-scale=1.0">
+    <title>SSportfolio</title>
+    <link rel="stylesheet" href="ssportfolio.css">
+
+</head>
+
+<body>
+    <div class="container" id="cmbg">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Intro.html">My Intro</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main" style="border: none;" id="mainContact">
+            <div class="navBar">
+                <img src="menu.png" alt="" class="menu" width="26px">
+                <img src="cross.png" alt="" class="cross" width="21px">
+            </div>
+            <div class="contactForm">
+                <div class="formLayout">
+                    <h1>Contact Me for Work/General Enquires</h1>
+                    <form>
+                        <div class="mb-3">
+                            <label for="clientName" class="formLabel ">Name :</label>
+                            <input type="name" class="formControl" id="clientName">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientEmail" class="formLabel">Email address :</label>
+                            <input type="email" class="formControl" id="clientEmail" aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientNum" class="formLabel">Phone No. :</label>
+                            <input type="tel" class="formControl" id="clientNum">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientQuery" class="formLabel">Any Query :</label>
+                            <input type="Query" class="formControl" id="clientQuery">
+
+                        </div>
+                        <div id="emailNum" class="formText">*We'll never share your email & phone number with anyone
+                            else.
+                        </div>
+                        <div class="formCheck">
+                            <input type="checkbox" class="checkbox" id="isClient">
+                            <label class="checkbox" id="checkText" for="isClient" >I want you to work on a project with me.</label>
+                        </div>
+                        <button type="submit" class="formBtn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lower">shivani</div>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
