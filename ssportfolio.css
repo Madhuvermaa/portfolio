@@ -1,0 +1,440 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Caveat&family=Courgette&family=Indie+Flower&family=Quicksand:wght@300&family=Satisfy&family=Varela+Round&display=swap');
+
+/* --------------------------------------------------------Home--------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(46, 46, 255);
+    color: white;
+    position: absolute;
+    /* width: 25vw; */
+    font-family: 'Varela Round', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.sidebar nav {
+    padding: 40px;
+    height: 100%;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 10px 0;
+    /* text-shadow: 2px 2px 2px whitesmoke; */
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+.main {
+    /* background-color:green; */
+    width: 100vw;
+    box-shadow: 2px  6px 4px  gray;
+    margin: 0.9vw;
+    border: 0.5vw white solid;
+    border-radius: 1%;
+    /* height: 80vh; */
+}
+.container {
+    display: flex;
+}
+.infoContainer{
+    /* background-color: yellow; */
+    height: 60vh;
+    /* width: 80vw; */
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Caveat', cursive;
+}
+.devpic img{
+    height: 60vh;
+    width: auto;
+    border-radius: 50%;
+
+}
+.hello{
+    font-size: 2.5em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Antic Slab', serif;
+}
+.about{
+    font-size: 2em;
+    font-family: 'Varela Round', sans-serif;
+}
+.moreabout{
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-family: 'Varela Round', sans-serif;
+}
+.buttons{
+    margin-top: 28px;
+}
+.buttons button{
+    margin: 0 3px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color:rgb(46, 46, 255);
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 8px gray;
+    font-size:13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(46, 46, 255);
+}
+.navBar{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.cross{
+    margin-left: 170px;
+}
+@media (max-width: 1000px) {
+
+.devpic img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.main {
+    /* background-color:green; */
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    /* margin: 0.9vw; */
+    border: none;
+    border-radius: 0px;
+    /* height: 80vh; */
+}
+.infoContainer{
+    width: 100%;
+    height: 100%;
+    margin: 100px auto;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.devinfo{
+    font-size: 7px;
+}
+.contact-container{
+    /* display:flex; */
+    flex-direction: column;
+}
+.left{
+    background: pink;
+    /* width: auto; */
+    justify-content: center;
+    text-align: center;
+}
+.right{
+    background: green;
+    /* width: auto; */
+    justify-content: center;
+    text-align: center;
+}
+.skillcontainer{
+    flex-direction: column;
+    display: flex;
+}
+.skillball{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.skillball ul{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 10px solid black;
+}
+.skillball ul li{
+    width: 70px;
+    height: 70px;
+    list-style: none;
+    margin: 0 10px;
+    /* background-color: black; */
+    border-radius: 50%;
+    animation: none;
+}
+
+}
+
+
+/* --------------------------------------------------Contact Me------------------------------------------------ */
+#cmbg{
+    background-image: url('https://source.unsplash.com/random/?hd/?nature');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+.checkbox{
+    flex-direction: row;
+}  */
+.contactForm{
+    
+    /* padding-left: 20vw; */
+    /* font-family: 'Varela Round', sans-serif; */
+    font-family: 'Antic Slab', serif;
+    font-size: 15px;
+    margin-left: 10vw;
+    
+}
+.formLayout{
+    /* background-color: blue; */
+    padding-left: 6vw;
+    padding-top: 0vw 9vh;
+    
+    font-size: 15px;
+    /* margin-left: 10vw; */
+}
+.formLayout div{
+    padding:1vh 0;
+}
+#emailNum{
+    font-size: 13px;
+    padding-right: 4vw;
+}
+#checkText{
+    padding-right: 4vw;
+    /* background-color: red; */
+}
+.formLayout h1{
+    font-size: 22px;
+    margin-top: 3vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    /* justify-content: space-around; */
+    align-items: center;
+    font-family: 'Caveat', cursive;
+}
+.formLayout form{
+    margin-top: 4vh;
+}
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+.formControl{
+    width: 30vw;
+    padding: 1vh 1vw;
+    /* border: none; */
+    border-radius: 4px;
+    margin-top: 1vh;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+}
+#mainContact{
+    height: 90vh;
+    width: 45vw;
+    margin-left: 25vw;
+    background-color: white;
+    opacity: 0.8;
+}
+.formBtn{
+    padding: 1.5vh 7vw;
+    margin-left: 6vw;
+    margin-top: 3vh;
+    border-radius: 4px;
+    background-color: rgb(46, 46, 255);
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 8px gray;
+}
+.formBtn:hover{
+    color: rgb(46, 46, 255);
+    background-color: white;
+}
+.lower{
+    background-color: black;
+    height: 8vh;
+}
+
+/*------------------------------------------------------------ Blog------------------------------------------------------------------ */
+
+
+.blogItems{
+    margin: 4vh 4vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.bh1{
+    margin-left: 20vw;
+    size: 24rem; 
+    font-family: 'Caveat', cursive;
+}
+/* -------------------------------------------------------------------INTRO--------------------------------------------------------- */
+
+/* ---------------------------------skills---------------------------------------------------------------------------------------- */
+
+.skillcontainer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(to left,rgb(8, 148, 255),rgb(225, 236, 243)); 
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+    display: flex;
+
+    /* opacity: 0.5; */
+    /* z-index: -1; */
+}
+.backhome{
+    /* position: relative; */
+    margin: 40px;
+    border: 2px solid black;
+}
+.skillcontainer h1{
+    font-size: 32px;
+}
+.skillball{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skillball ul{
+    display: flex;
+    border-bottom: 10px solid black;
+}
+.skillball ul li{
+    width: 70px;
+    height: 70px;
+    list-style: none;
+    margin: 0 10px;
+    /* background-color: black; */
+    border-radius: 50%;
+    animation: bouncy 17s linear infinite;
+}
+@keyframes bouncy{
+    0%{transform: translateY(0);}
+    10%{transform: translatey(-300px);}
+    /* 20%{transform: translatex(400px);} */
+    30%{transform: translatey(200px);}
+    /* 40%{transform: translatex(-400px);} */
+    50%{transform: translatey(-300px);}
+    60%{transform: translatey(200px);}
+    /* 70%{transform: translatex(-400px);} */
+    /* 80%{transform: translatex(400px);} */
+    90%{transform: translatey(-300px);}
+    100%{transform: translateY(0);}
+    
+}
+ul li:nth-child(1){
+    animation-delay: 0.4s;
+    /* background-color: white; */
+    color: black;
+}
+ul li:nth-child(2){
+    animation-delay: 1.5s;
+    /* background-color: white; */
+    color: black;
+
+}
+ul li:nth-child(3){
+    animation-delay: 2.3s;
+    /* background-color: white; */
+    color: black;
+
+}
+ul li:nth-child(4){
+    animation-delay: 1.1s;
+    /* background-color: white; */
+    color: black;
+
+}
+ul li:nth-child(5){
+    animation-delay: 1.8;
+    /* background-color: white; */
+    color: black;
+
+}
+ul li:nth-child(6){
+    animation-delay: 2.0s;
+    /* background-color: white; */
+}
+ul li:nth-child(7){
+    animation-delay: 1.3s;
+    /* background-color: none; */
+}
+/* **************************************************codes***************************************************************** */
+.code-container{
+    margin: 40px 50px;
+
+}
+.web-code{
+    display: flex;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+.web-box{
+    width: 300px;
+    background-color: rgb(224, 219, 219);
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.py-p{
+    margin-top: 20px;
+}
+.py-code{
+    display: flex;
+    margin-top: 20px;
+}
+.py-box{
+    width: 300px;
+    background-color: rgb(224, 219, 219);
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.db-p{
+    margin-top: 20px;
+}
+.db-code{
+    display: flex;
+    margin-top: 20px;
+}
+.db-box{
+    width: 300px;
+    background-color: rgb(224, 219, 219);
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
