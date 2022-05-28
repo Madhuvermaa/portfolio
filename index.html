@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="menu">
+        <button class="home-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"><img src="home.png" alt="home" width="45rem"></button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title home" id="offcanvasWithBothOptionsLabel"><a href="#"
+                        onclick="myhome()">Home</a></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-header">
+                <ul>
+                    <li class="bar" onclick="myskills()"><a href="#skills">Skills</a></li>
+                    <li class="bar"><a href="indexb.html">Blog</a></li>
+                    <li class="bar"><a href="indexp.html">Codes</a></li>
+                    <!-- <li class="bar" onclick="myservices()"><a href="#services">Services</a></li> -->
+                    <li class="bar" onclick="mycontact()"><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="front">
+            <div class="intro mx-4">
+                <h3>Hello, I am</h3>
+                <h1>SHIVANI</h1>
+                <p> A Web Developer. I am from Panipat, Haryana.</p>
+                <a href="https://drive.google.com/file/d/16pJOTVDA3pcUYAPB_VZPJZVV-s1M2mWL/view?usp=drivesdk"><button
+                        class="cv">Download CV</button></a>
+                <button class="contact" onclick="mycontact()">Contact Me</button>
+            </div>
+            <div class="pic mx-4"><img src="avatar.jpg" alt="avatar"></div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="s-bg">
+        </div>
+        <div class="skill"></div>
+        <h1 class="h1-skills">Skills</h1>
+        <div class="s-front">
+
+            <div class="heading">
+                <h4>Web development</h4>
+            </div>
+            <div class="content">
+                <div class="skill-card">
+                    <div><img src="html.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>HTML</h5>
+                        <p>The standard markup language for documents designed to be displayed in a web browser <a
+                                href="https://en.wikipedia.org/wiki/HTML">Know More...</a></p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div><img src="css.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>CSS</h5>
+                        <p>Enables the sepration of presentation and content, including layout, colors, and fonts
+                            <a href="https://en.wikipedia.org/wiki/CSS">Know More...</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div><img src="bs.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>Bootstrap</h5>
+                        <p>A free collection of tools for creating websites and web applications <a
+                                href="https://en.wikipedia.org/wiki/Bootstrapping_(disambiguation)">Know More...</a></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="heading">
+                <h4>Programming Languages, frameworks & libraries</h4>
+            </div>
+            <div class="content">
+                <div class="skill-card">
+                    <div><img src="js.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>Javascript</h5>
+                        <p>A programming language that is one of the core technologies of the World Wide Web <a
+                                href="https://en.wikipedia.org/wiki/JavaScript">Know More...</a></p>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div><img src="react.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>React Js</h5>
+                        <p>Javascript Library for the development of single page, mobile, or server rendered
+                            applications <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)">Know
+                                More...</a></p>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div><img src="python.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>Python</h5>
+                        <p>Python is a high-level, interpreted, general-purpose programming language <a
+                                href="https://en.wikipedia.org/wiki/Python_(programming_language)">Know More...</a></p>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div><img src="django.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>Django</h5>
+                        <p>Python web framework that encourages rapid development and clean, pragmatic design <a
+                                href="https://en.wikipedia.org/wiki/Django_(web_framework)">Know More...</a></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="heading">
+                <h4>DataBase</h4>
+            </div>
+            <div class="content">
+                <div class="skill-card">
+                    <div><img src="mysql.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>MySql</h5>
+                        <p>MySql is an open-source relational database management system <a
+                                href="https://en.wikipedia.org/wiki/MySQL">Know More...</a></p>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div><img src="sqlite.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>SQlite</h5>
+                        <p>SQLite is a C-language library that implements a small, fast, high-reliability, SQL database
+                            engine <a href="https://en.wikipedia.org/wiki/SQLite">Know More...</a></p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="heading">
+                <h4>Tools and Technologies</h4>
+            </div>
+            <div class="content">
+                <div class="skill-card">
+                    <div><img src="wp.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>Wordpress</h5>
+                        <p>WordPress is web development tool, content management system written in PHP <a
+                                href="https://wordpress.com/">Know More...</a></p>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div><img src="git.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>Git</h5>
+                        <p>Git is a software for tracking changes in any set of files <a
+                                href="https://git-scm.com/">Know More...</a></p>
+
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div><img src="github.png" alt="" class="img"></div>
+                    <div class="crd-body">
+                        <h5>GitHub</h5>
+                        <p>Provider of Internet hosting for software development and version control using Git <a
+                                href="https://en.wikipedia.org/wiki/GitHub">Know More...</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    </div>
+    </div>
+    </div>
+    <div id="contact">
+        <div class="cont-container">
+
+            <div class="left">
+                <form method="post" onsubmit="contact()" enctype="text/plain">
+                    <h1>Contact</h1>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name :</label>
+                        <input type="text" name="name" class="form-control" id="exampleFormControlInput1 name"
+                            placeholder="name here">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address :</label>
+                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1 email"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Querry :</label>
+                        <textarea type="text" name="message" class="form-control"
+                            id="exampleFormControlTextarea1 message" rows="2" placeholder="message here"></textarea>
+                    </div>
+                    <div id="emailNum" class="formText">*We'll never share your email & phone number with anyone
+                        else.
+                    </div>
+                    <div class="formCheck">
+
+                        <input type="checkbox" name="client" class="checkbox" id="isClient">
+                        <label class="checkbox" id="checkText" for="client">I want you to work on a project with
+                            me.</label>
+                    </div>
+                    <div class="mb-3 submit-btn">
+                        <input type="submit" value="Send" class="form-btn my-3 mx-2"></input>
+                        <!-- <input type="reset" value="Clear" class="form-btn my-3 mx-2"></input> -->
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <h1>Get connected through</h1>
+                <ul>
+                    <li class="link m-3"><a href="https://www.linkedin.com/in/shivanisainiindoria"><img
+                                src="linkedin-app.png" width="30px" alt="">/shivanisainiindoria</a></li>
+                    <!-- <h6>---</h6> -->
+                    <li class="link m-3"><a href="https://github.com/shivaniindoria"><img src="github-app.png" alt=""
+                                width="30px"> shivaniindoria</a></li>
+                    <!-- <h6>-</h6> -->
+                    <li class="link m-3"><a href="https://twitter.com/shivaniindoria"><img src="twitter-app.png" alt=""
+                                width="30px"> /shivaniindoria</a></li>
+                    <h6>----</h6>
+                    <li class="link m-3"><a href="https://instagram.com/shivanisaini3011"><img src="insta-app.png"
+                                alt="" width="30px"> @shivanisaini3011</a></li>
+                    <hr>
+                    <li class="link m-3"><a href="mailto:shivani.indoria30@gmail.com"><img src="gmail.png" alt=""
+                                width="30px"> shivani.indoria30@gmailcom</a></li>
+                    <hr>
+                </ul>
+            </div>
+        </div>
+        <div class="empty-black"></div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

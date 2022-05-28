@@ -1,0 +1,905 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Caveat&family=Courgette&family=Indie+Flower&family=Quicksand:wght@300&family=Satisfy&family=Varela+Round&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu {
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    /* position: absolute; */
+    z-index: 2;
+}
+
+.home-btn {
+    background: none;
+    border: none;
+    position: fixed;
+}
+
+.home {
+    margin-top: 3vh;
+    border: 4px solid white;
+}
+
+
+.bar {
+    list-style: none;
+    font-size: 18px;
+    padding: 1vh 0px 1vh 0px;
+}
+
+.bar:hover {
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.bar a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* ############################################ MAIN ########################################## */
+#main {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://source.unsplash.com/random/?nature');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2vw;
+}
+
+.front {
+    display: flex;
+    background: rgba(194, 207, 235, 0.863);
+    box-shadow: 26px 29px 26px rgba(51, 50, 50, 0.849);
+    /* box-shadow: 2px 2px 2px 2px gray; */
+    border-radius: 3px;
+    font-size: 1rem;
+    height: 90vh;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.intro {
+    justify-content: center;
+    align-content: center;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.intro h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.intro button {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.intro button:hover {
+    background: white;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pic img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* ############################################ SKILLS ########################################## */
+
+#skills {
+    display: none;
+}
+
+.skill {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -5;
+}
+
+.s-bg {
+    height: 80vh;
+    width: 100vw;
+    margin-top: 0px;
+    background-image: url(skillsbg.jpg);
+    /* opacity: 0.5; */
+    background-size: cover;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.h1-skills {
+
+    margin: auto;
+    color: white;
+    position: relative;
+    top: 19vh;
+    font-size: 10vh;
+    font-family: Imprint MT Shadow;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.s-front {
+    background: rgba(0, 0, 0, 0.288);
+    border-radius: 3px;
+    width: 92vw;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 36vh 4vw;
+}
+
+.s-front h4 {
+    text-align: center;
+    margin-top: 3vh;
+    padding: 7px;
+    color: white;
+    border: 1px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    margin: 1vh 4vw;
+    background: rgba(73, 70, 70, 0.815);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(190, 181, 181, 0.808);
+    margin: 1vh 5vw;
+}
+
+.skill-card {
+    width: auto;
+    /* height: auto; */
+    background: white;
+    box-shadow: 20px 20px 10px rgba(51, 50, 50, 0.849);
+    margin: 1vh 1vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.img {
+    width: 70px;
+    margin: auto;
+}
+
+.crd-body {
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.crd-body h5 {
+    margin: 2px;
+    padding: 0px;
+}
+
+.crd-body p {
+    margin: 0px;
+    padding: 1px;
+}
+
+/* ############################################  BLOG  ########################################## */
+
+#blog {
+    background: red;
+    /* display: none; */
+}
+
+/* ############################################# CODES ########################################## */
+
+#projects {
+    justify-content: center;
+    text-align: center;
+    background: rgb(197, 194, 194);
+}
+
+.gridshow {
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.codegrid {
+    margin-top: 2vh;
+    width: 40vw;
+    
+}
+
+.codegrid h1 {
+    margin: 3vh;
+}
+
+.code {
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin: 5px;
+}
+
+.code-box {
+    margin: 10px;
+    width: auto;
+    box-shadow: 20px 20px 10px rgba(51, 50, 50, 0.849);
+    /* height: 100px; */
+}
+.code-box img{
+    height: 100px;
+    cursor: pointer;
+}
+#p1{
+    display: none;
+}
+#p2{
+    display: none;
+}
+#p3{
+    display: none;
+}
+#p4{
+    display: none;
+}
+#p5{
+    display: block;
+}
+#p6{
+    display: none;
+}
+.pshow {
+    /* background: green; */
+    margin: 2vh 0vw 2vh 8vh ;
+    width: 40vw;
+    height: 90vh;
+    box-shadow: 25px 25px 15px rgba(51, 50, 50, 0.849);
+    /* border: 2px solid black; */
+}
+.d-head{
+    color: white;
+    background: rgba(109, 106, 106, 0.904);
+}
+p{margin-bottom: 0px;}
+.d-show{
+    width: 60vw;
+    height: auto;
+}
+
+
+/* ########################################### SERVICES ######################################### */
+
+#services {
+    background: green;
+    display: none;
+}
+
+/* ############################################ CONTACT ######################################### */
+
+#contact{
+    display: none;
+}
+
+.cont-container {
+    display: flex;
+    width: 100vw;
+    /* height: 90vh; */
+    background-image: url('https://source.unsplash.com/random/?contact'), linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+    justify-content: space-around;
+}
+
+.empty-black {
+    width: 100vw;
+    height: 20vh;
+    background: black;
+}
+
+.left {
+    background: rgba(115, 163, 224, 0.644);
+    padding: 50px 90px;
+    width: 50vw;
+    font-size: 1rem;
+}
+.form-control{
+    box-shadow: 10px 10px 5px rgba(80, 77, 77, 0.849);
+
+}
+
+.left h1 {
+    text-align: center;
+}
+
+.isClient {
+    width: 10px;
+}
+
+.submit-btn {
+    text-align: center;
+}
+
+.form-btn {
+    background: blue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin: auto;
+    border-radius: 3px;
+    padding: 5px 50px;
+}
+
+.form-btn:hover {
+    background: white;
+    color: blue;
+    font-weight: bold;
+}
+
+.right {
+    text-align: center;
+    background: gray;
+    color: white;
+    padding: 40px;
+    width: 50vw;
+}
+
+.right ul {
+    margin-top: 7vh;
+    padding-left: 0;
+}
+
+
+.link {
+    list-style: none;
+    /* margin: auto; */
+    margin: 5vh 5vw;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.link a:hover {
+    /* text-decoration: none; */
+    color: rgb(7, 7, 7);
+    /* font-size: 1rem; */
+}
+
+/* ######################################### MEDIA QUERRY ####################################### */
+
+@media (min-width:100px) and (max-width:300px) {
+
+    .offcanvas {
+        max-width: 70% !important;
+    }
+
+    /* -------------------------------------main------------------------------------------ */
+    .front {
+        flex-direction: column-reverse;
+        height: 96vh;
+        width: 90vw;
+        padding-top: 0vh;
+    }
+
+    .pic img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    .intro {
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5vh;
+    }
+
+    /* -------------------------------------skills---------------------------------------- */
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 1vh 5vw;
+    }
+
+    .s-front h4 {
+        text-align: center;
+        margin-top: 3vh;
+        color: white;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /*  */
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    }
+
+    .skill-card {
+        width: 60vw;
+        background: white;
+        /* margin: 0.5vh 1em; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2vw;
+        /* opacity: 1.0; */
+    }
+
+    .img {
+        width: 50px;
+    }
+
+    .crd-body p {
+        display: none;
+    }
+
+    /* -------------------------------------projects---------------------------------------- */
+
+    .d-show {
+        width: 85vw;
+        height: auto;
+    }
+    .codegrid {
+        margin-top: 2vh;
+        width: 40vw;
+    }
+    .code {
+        justify-content: center;
+        margin: auto;
+        flex-direction: column;
+        margin: 1vw;
+    }
+    .code-box {
+        margin: 10px;
+        width: 100px;
+        box-shadow: 20px 20px 10px rgba(51, 50, 50, 0.849);
+    }
+    .para{
+        display: none;
+    }
+    .pshow {
+        display: none;
+    }
+    .gridshow{
+        display: none;
+    }
+    /* -------------------------------------contact---------------------------------------- */
+    .cont-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .empty-black {
+        display: none;
+    }
+
+    .left {
+        padding: 20px 20px;
+        width: 100vw;
+    }
+
+    .right {
+        padding: 10px 20px;
+        width: 100vw;
+    }
+}
+
+@media (min-width:301px) and (max-width:600px) {
+
+    .offcanvas {
+        max-width: 50% !important;
+    }
+
+    /* ----------------------------------------main-------------------------------------- */
+    .front {
+        flex-direction: column-reverse;
+        height: 96vh;
+        width: 90vw;
+        padding-top: 0vh;
+    }
+
+    .pic img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .intro {
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 5vh;
+    }
+
+
+    /* ----------------------------------------skills------------------------------------- */
+    /* .s-front {
+    } */
+
+
+    .skill-card {
+        width: 55px;
+        height: 55px;
+        background: white;
+        margin: 1vh 1vw;
+        border-radius: 2px;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        padding: 5px;
+    }
+
+    .s-front h4 {
+        text-align: center;
+        margin-top: 3vh;
+        color: white;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .img {
+        width: 45px;
+        margin: 0px;
+    }
+
+    .crd-body {
+        display: none;
+    }
+    /* ----------------------------------------projects ------------------------------------- */
+
+    .d-show {
+        width: 85vw;
+        height: auto;
+    }
+    .codegrid {
+        margin-top: 2vh;
+        width: 40vw;
+    }
+    .code {
+        justify-content: center;
+        margin: auto;
+        /* flex-direction: column; */
+        margin: 1vw;
+    }
+    .code-box {
+        margin: 10px;
+        width: 100px;
+        box-shadow: 20px 20px 10px rgba(51, 50, 50, 0.849);
+    }
+    .code-box img{
+        height: 60px;
+        margin: 2vw;
+    }
+    .para{
+        display: none;
+    }
+    .pshow {
+        display: none;
+    }
+    .gridshow{
+        display: none;
+    }
+    /* ----------------------------------------contact------------------------------------- */
+    .cont-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .empty-black {
+        display: none;
+    }
+
+    .left {
+        padding: 20px 12vw;
+        width: 100vw;
+    }
+
+    .right {
+        padding: 20px 40px;
+        width: 100vw;
+    }
+}
+
+@media (min-width:601px) and (max-width:800px) {
+
+    .offcanvas {
+        max-width: 25% !important;
+    }
+
+    /* ----------------------------------------main---------------------------------------- */
+
+    .front {
+        flex-direction: column-reverse;
+        height: 96vh;
+        width: 90vw;
+        padding-top: 0vh;
+    }
+
+    .pic img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    .intro {
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-top: 5vh;
+    }
+
+    /* ----------------------------------------skills-------------------------------------- */
+
+
+    .s-front h4 {
+        text-align: center;
+        margin-top: 3vh;
+        color: white;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .skill-card {
+        width: 75px;
+        height: 95px;
+        background: white;
+        margin: 1vh 1vw;
+        border-radius: 2px;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        padding: 5px;
+    }
+
+    .img {
+        width: 65px;
+        margin: 0px;
+    }
+
+    .crd-body {
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        font-size: 0.5rem;
+        height: auto;
+        width: auto;
+    }
+
+    .crd-body h5 {
+        margin: 2px;
+        padding: 0px;
+        font-size: small;
+    }
+
+    .crd-body p {
+        display: none;
+    }
+
+    /* ----------------------------------------blog---------------------------------------- */
+    /* ----------------------------------------projects------------------------------------- */
+    .d-show {
+        width: 85vw;
+        height: auto;
+    }
+    .codegrid {
+        margin-top: 2vh;
+        width: 40vw;
+    }
+    .code {
+        justify-content: center;
+        margin: auto;
+        margin: 1vw;
+    }
+    .code-box {
+        /* margin: 10px; */
+        width: auto;
+        height: auto;
+        box-shadow: 20px 20px 10px rgba(51, 50, 50, 0.849);
+    }
+    .code-box img{
+        height: 80px;
+        /* margin: 1vw; */
+    }
+    .para{
+        display: none;
+    }
+    .pshow {
+        display: none;
+    }
+    /* ----------------------------------------contact------------------------------------- */
+
+    .cont-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .empty-black {
+        display: none;
+    }
+
+    .left {
+        padding: 40px 120px;
+        width: 100vw;
+    }
+
+    .right {
+        padding: 20px 40px;
+        width: 100vw;
+    }
+}
+
+@media (min-width:801px) and (max-width:1000px) {
+
+    .offcanvas {
+        max-width: 25% !important;
+    }
+
+    /* ----------------------------------------main---------------------------------------- */
+
+    .front {
+        flex-direction: column-reverse;
+        height: 96vh;
+        width: 90vw;
+        padding-top: 0vh;
+    }
+
+    .pic img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .intro {
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5vh;
+    }
+
+    /* ----------------------------------------skills-------------------------------------- */
+
+    .s-front h4 {
+        text-align: center;
+        margin-top: 3vh;
+        color: white;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /* ----------------------------------------blog---------------------------------------- */
+    /* ----------------------------------------projects------------------------------------- */
+    .codegrid {
+        margin-top: 2vh;
+        width: 20vw;
+    }
+    .code {
+        justify-content: center;
+        margin: auto;
+        flex-direction: column;
+        margin: 1vw;
+    }
+    .pshow {
+        margin: 2vh 0vw 2vh 8vh;
+        width: 50vw;
+        height: auto;
+        box-shadow: 25px 25px 15px rgb(51 50 50 / 85%);
+    }
+
+    .code-box {
+        margin: 10px;
+        width: 100px;
+        box-shadow: 20px 20px 10px rgba(51, 50, 50, 0.849);
+    }
+    .code-box img{
+        height: 70px;
+    }
+    /* ----------------------------------------contact------------------------------------- */
+    .cont-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .empty-black {
+        display: none;
+    }
+
+    .left {
+        padding: 50px 20vw;
+        width: 100vw;
+    }
+
+    .right {
+        padding: 20px 40px;
+        width: 100vw;
+    }
+}
+
+@media (min-width:1001px) and (max-width:1600px) {
+
+    .offcanvas {
+        max-width: 25% !important;
+    }
+
+    /* ----------------------------------------main---------------------------------------- */
+    /* ----------------------------------------skills-------------------------------------- */
+    .s-front h4 {
+        text-align: center;
+        margin-top: 3vh;
+        color: white;
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /* ----------------------------------------blog---------------------------------------- */
+    /* ----------------------------------------projects------------------------------------- */
+    /* .code-box img {
+        height: 75px;
+        cursor: pointer;
+    } */
+    
+    .pshow {
+        margin: 4vh -4vw 2vh 16vh;
+        width: 42vw;
+        height: auto;
+        box-shadow: 25px 25px 15px rgb(51 50 50 / 85%);
+    }
+    /* ----------------------------------------contact------------------------------------- */
+    .left {
+        padding: 50px 10vw;
+
+    }
+}
+
+@media (min-width:1601px) and (max-width:3000px) {
+
+    /* ----------------------------------------main---------------------------------------- */
+    /* ----------------------------------------skills-------------------------------------- */
+    .s-front h4 {
+        text-align: center;
+        margin-top: 3vh;
+        color: white;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /* ----------------------------------------blog---------------------------------------- */
+    /* ----------------------------------------projects------------------------------------- */
+    /* ----------------------------------------contact------------------------------------- */
+
+    .left {
+        padding: 50px 10vw;
+
+    }
+}
+
