@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>code</title>
+</head>
+<body>
+    <div id="menu">
+        <button class="home-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"><img src="home.png" alt="home" width="45rem"></button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title home" id="offcanvasWithBothOptionsLabel"><a href="index.html"
+                        onclick="myhome()">Home</a></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-header">
+                <ul>
+                    <li class="bar"><a href="indexb.html">Blog</a></li>
+                    <li class="bar"><a href="indexp.html">Codes</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="gridshow">
+            <div class="codegrid">
+                <h1>Codes</h1>
+                <div class="code">
+                    <div class="code-box"><img src="pyArt.png" onclick="show(p1)"></div>
+                    <div class="code-box"><img src="db1.png" height="120px" onclick="show(p2)"></div>
+                    <div class="code-box"><img src="dd1.png" height="120px" onclick="show(p3)"></div>
+                </div>
+                <div class="code">
+                    <div class="code-box"><img src="judo.png" height="150px" onclick="show(p4)"></div>
+                    <div class="code-box"><img src="magictext.png" height="150px" onclick="show(p5)"></div>
+                </div>
+                <div class="code">
+                    <div class="code-box"><img src="calc.jpg" height="150px" onclick="show(p6)"></div>
+                    <!-- <div class="code-box"></div> -->
+                    <!-- <div class="code-box"></div> -->
+                    <!-- <div class="code-box"></div> -->
+                </div>
+            </div>
+            <div id="showpro">
+                <div class="pshow">
+                    <div id="p1">
+                        <img src="" alt="">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2500">
+                                    <img src="pyArt1.png" class="d-block w-100" alt="...">
+                                   
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2500">
+                                    <img src="pyart2.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="pyart3.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="m-4">
+                            <h3>PyArt - Calligraphy Designs</h3>
+                            <p class="para">An extensive set of web-based text processing tools and utilities that will help you
+                                automate
+                                the recurring tasks of <b>editing</b> and <b>formatting</b> huge chunk of text. Using
+                                these text
+                                manipulation tools can save you many typing hours, and will increase your productivity.
+                            </p>
+                            <a href="#d-pyart">
+                                <h6>PyArt Description</h6>
+                            </a>
+                            <a href="https://github.com/shivaniindoria/pyArt">Click to get the code</a>
+                        </div><br>
+                    </div>
+                    <div id="p2">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2500">
+                                    <img src="db1.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2500">
+                                    <img src="db3.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="db4.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="m-4">
+                            <h3>DataBase Entry Form</h3>
+                            <p class="para">An extensive set of web-based text processing tools and utilities that will help you
+                                automate
+                                the recurring tasks of <b>editing</b> and <b>formatting</b> huge chunk of text. Using
+                                these text
+                                manipulation tools can save you many typing hours, and will increase your productivity.
+                            </p>
+                            <a href="#d-db">
+                                <h6>Form Description</h6>
+                            </a>
+                            <a href="https://github.com/shivaniindoria/DBconnect_form">Click to get the code</a>
+                        </div><br>
+                    </div>
+                    <div id="p3">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2500">
+                                    <img src="dd1.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2500">
+                                    <img src="dd2.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="dd3.png" class="d-block w-100" alt="...">
+                                   
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="m-4">
+                            <h3>Door Delights - Food Delivery Service</h3>
+                            <p class="para">An extensive set of web-based text processing tools and utilities that will help you
+                                automate
+                                the recurring tasks of <b>editing</b> and <b>formatting</b> huge chunk of text. Using
+                                these text
+                                manipulation tools can save you many typing hours, and will increase your productivity.
+                            </p>
+                            <a href="#d-dd">
+                                <h6>Door Delights Description</h6>
+                            </a>
+                            <a href="https://github.com/shivaniindoria/Door-Delights">Click to get the code</a>
+                        </div><br>
+                    </div>
+                    <div id="p4">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2500">
+                                    <img src="judo.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2500">
+                                    <img src="judo2.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="judo3.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="m-4">
+                            <h3>JUDO - A Voice Assistant</h3>
+                            <p class="para">A digital assistant that uses voice recognition, language processing algorithms
+                                and voice synthesis to listen to specific voice commands and return relevant information
+                                or perform specific functions like <b>mailing,playing music, searching, wikipedia
+                                    results</b> and <b>conversation</b> as result by user </p>
+                            <a href="#d-judo">
+                                <h6>Judo Description</h6>
+                            </a>
+                            <a href="https://github.com/shivaniindoria/Judo-Voice-Assistant">Click to get the code</a>
+                        </div><br>
+                    </div>
+                    <div id="p5">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2500">
+                                    <img src="tm3.png" class="d-block w-100" alt="...">
+                                   
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2500">
+                                    <img src="magictext.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="darktext.png" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="m-4">
+                            <h3>Text Magic- Text Manipulation Tool</h3>
+                            <p class="para">An extensive set of web-based text processing tools and utilities that will help you
+                                automate
+                                the recurring tasks of <b>editing</b> and <b>formatting</b> huge chunk of text. Using
+                                these text
+                                manipulation tools can save you many typing hours, and will increase your productivity.
+                            </p>
+                            <a href="#d-text">
+                                <h6>Text Magic Description</h6>
+                            </a>
+                            <a href="https://github.com/shivaniindoria/TextMagic-React">Click to get the code</a>
+                        </div><br>
+                    </div>
+                    <div id="p6">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2500">
+                                    <img src="calc.jpg" class="d-block w-100" alt="...">
+                                   
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2500">
+                                    <img src="calc.jpg" class="d-block w-100" alt="...">
+                                    
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="calc.jpg" class="d-block w-100" alt="...">
+                                   
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="m-4">
+                            <h3>Calc - Calculate</h3>
+                            <p class="para">An extensive set of web-based text processing tools and utilities that will help you
+                                automate
+                                the recurring tasks of <b>editing</b> and <b>formatting</b> huge chunk of text. Using
+                                these text
+                                manipulation tools can save you many typing hours, and will increase your productivity.
+                            </p>
+                            <a href="#d-calc">
+                                <h6>calculator Description</h6>
+                            </a>
+                            <a href="https://github.com/shivaniindoria/calc">Click to get the code</a>
+                        </div><br>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="d-box m-4">
+            <h2 class="d-head">Description</h2>
+            <div class="container">
+                <div id="d-pyart" class="d-show">
+                    <h3>pyArt</h3>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img src="pyArt1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2500">
+                                <img src="pyart2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="pyart3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="m-4">
+                        <h3>PyArt - Calligraphy Designs</h3>
+                        <p><b>TECHNOLOGIES USED -</b> PYHTON <br>
+                            <b>FEATURES -</b> PRINT DIFFERENT CALLIGRAPHY DESIGNS
+                        </p>
+                        <a href="https://github.com/shivaniindoria/TextMagic-React">Click to get the code</a>
+                    </div>
+                </div><br>
+                <div id="d-db" class="d-show">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img src="db1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2500">
+                                <img src="db4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="db3.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="m-4">
+                        <h3>Submission Form - Database Entry</h3>
+                        <p><b>TECHNOLOGIES USED -</b>HTML, CSS, BOOTSTRAP, JAVASCRIPT SQL, MYSQL <br>
+                            <b>FEATURES -</b>STORE USER INPUT IN DATABASE
+                        </p>
+                        <a href="https://shivaniindoria.github.io/DBconnect_form/">Click to get the code</a>
+                    </div>
+                </div><br>
+                <div id="d-dd" class="d-show">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img src="dd1.png" class="d-block w-100" alt="...">
+                               
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2500">
+                                <img src="dd2.png" class="d-block w-100" alt="...">
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img src="dd3.png" class="d-block w-100" alt="...">
+                                
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="m-4">
+                        <h3>Door Delights - Food Delivery Service</h3>
+                        <p><b>TECHNOLOGIES USED -</b>HTML, CSS, JAVASCRIPT <br>
+                            <b>FEATURES -</b> ONLINE FOOD ORDERING WEBSITE INTERFACE
+                        </p>
+                        <a href="https://shivaniindoria.github.io/Door-Delights/">Click to get the code</a>
+                    </div>
+                </div><br>
+                <div id="d-judo" class="d-show">
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2500">
+                                        <img src="judo.png" class="d-block w-100" alt="...">
+                                        
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2500">
+                                        <img src="judo2.png" class="d-block w-100" alt="...">
+                                        
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="judo3.png" class="d-block w-100" alt="...">
+                                        
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="m-4">
+                                <h3>JUDO - A Voice Assistant</h3>
+                                <p><b>TECHNOLOGIES USED -</b>PYTHON <br>
+                                    <b>FEATURES -</b>TALKER BUDDY, SENDS EMAIL, SEARCH RESULT BY GOOGLE OR WIKIPEDIA PLAY MUSIC 
+                                </p>
+                               
+                                <a href="https://github.com/shivaniindoria/Judo-Voice-Assistant">Click to get the
+                                    code</a>
+                            </div>
+
+                </div><br>
+                <div id="d-text" class="d-show">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img src="tm3.png" class="d-block w-100" alt="...">
+                               
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2500">
+                                <img src="magictext.png" class="d-block w-100" alt="...">
+                               
+                            </div>
+                            <div class="carousel-item">
+                                <img src="darktext.png" class="d-block w-100" alt="...">
+                                
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="m-4">
+                        <h3>Text Manipulation Tool </h3>
+                        <p><b>TECHNOLOGIES USED -</b> HTML, CSS, REACTJS, JAVASCRIPT, BOOTSTRAP <br>
+                            <b>FEATURES -</b>TEXT MANIPULATION, REMOVE EXTRA SPACES, COPY OR CLEAR TEXT, ENABLE DARK MODE
+                        </p>
+                       
+                        <a href="https://github.com/shivaniindoria/TextMagic-React">Click to get the code</a>
+                    </div>
+                </div><br>
+                <div id="d-calc" class="d-show">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="2500">
+                                <img src="calc.jpg" class="d-block w-100" alt="...">
+                               
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2500">
+                                <img src="calc.jpg" class="d-block w-100" alt="...">
+                                
+                            </div>
+                            <div class="carousel-item">
+                                <img src="calc.jpg" class="d-block w-100" alt="...">
+                               
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="m-4">
+                        <p>
+                        </p>
+                        <a href="https://shivaniindoria.github.io/calc/">Click to get the code</a>
+                    </div>
+                </div><br>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+</html>
