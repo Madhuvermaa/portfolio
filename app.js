@@ -61,6 +61,7 @@ function show(x) {
         document.getElementById('p3').style.display = 'none';
         document.getElementById('p4').style.display = 'none';
         document.getElementById('p5').style.display = 'none';
+        document.getElementById('p7').style.display = 'none';
         document.getElementById('p6').style.display = 'none';
     }
     else if (x == p2) {
@@ -69,6 +70,7 @@ function show(x) {
         document.getElementById('p3').style.display = 'none';
         document.getElementById('p4').style.display = 'none';
         document.getElementById('p5').style.display = 'none';
+        document.getElementById('p7').style.display = 'none';
         document.getElementById('p6').style.display = 'none';
     }
     else if (x == p3) {
@@ -78,6 +80,7 @@ function show(x) {
         document.getElementById('p4').style.display = 'none';
         document.getElementById('p5').style.display = 'none';
         document.getElementById('p6').style.display = 'none';
+        document.getElementById('p7').style.display = 'none';
     }
     else if (x == p4) {
         document.getElementById('p4').style.display = 'block';
@@ -86,6 +89,7 @@ function show(x) {
         document.getElementById('p3').style.display = 'none';
         document.getElementById('p5').style.display = 'none';
         document.getElementById('p6').style.display = 'none';
+        document.getElementById('p7').style.display = 'none';
     }
     else if (x == p5) {
         document.getElementById('p5').style.display = 'block';
@@ -94,6 +98,7 @@ function show(x) {
         document.getElementById('p3').style.display = 'none';
         document.getElementById('p4').style.display = 'none';
         document.getElementById('p6').style.display = 'none';
+        document.getElementById('p7').style.display = 'none';
     }
     else if (x == p6) {
         document.getElementById('p6').style.display = 'block';
@@ -102,6 +107,16 @@ function show(x) {
         document.getElementById('p3').style.display = 'none';
         document.getElementById('p4').style.display = 'none';
         document.getElementById('p5').style.display = 'none';
+        document.getElementById('p7').style.display = 'none';
+    }
+    else if (x == p7) {
+        document.getElementById('p7').style.display = 'block';
+        document.getElementById('p1').style.display = 'none';
+        document.getElementById('p2').style.display = 'none';
+        document.getElementById('p3').style.display = 'none';
+        document.getElementById('p4').style.display = 'none';
+        document.getElementById('p5').style.display = 'none';
+        document.getElementById('p6').style.display = 'none';
     }
 
 }
